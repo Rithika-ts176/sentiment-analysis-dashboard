@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Comparison</title>
+</head>
+<body style="font-family: Arial; padding: 40px;">
+
+<h1>Product Comparison Dashboard</h1>
+
+<form method="POST">
+    <label>Select Product:</label>
+    <select name="product" required>
+        <option value="">-- Choose Product --</option>
+        {% for product in products %}
+            <option value="{{ product }}" {% if product == selected_product %}selected{% endif %}>
+                {{ product }}
+            </option>
+        {% endfor %}
+    </select>
+    <button type="submit">Analyze</button>
+</form>
+
+{% if result %}
+
+<hr>
+
+<h2>Price Comparison</h2>
+<p><strong>Product:</strong> {{ result.name }}</p>
+<p>Amazon Price: ₹{{ result.amazon }}</p>
+<p>Flipkart Price: ₹{{ result.flipkart }}</p>
+<p><strong>Cheaper Platform:</strong> {{ result.cheaper }}</p>
+
+<div style="margin-top:30px; padding:20px; border:1px solid #ccc; border-radius:10px;">
+
+<h2>Platform Sentiment Analysis</h2>
+
+<p><strong>Amazon Total Reviews:</strong> {{ sentiment_data.amazon_total }}</p>
+<p><strong>Flipkart Total Reviews:</strong> {{ sentiment_data.flipkart_total }}</p>
+
+<p><strong>Amazon Positive %:</strong> {{ sentiment_data.amazon_positive_pct }}%</p>
+<p><strong>Flipkart Positive %:</strong> {{ sentiment_data.flipkart_positive_pct }}%</p>
+
+<br>
+
+<img src="{{ url_for('static', filename='graphics.png') }}" width="600">
+
+<h3>Business Insight</h3>
+<p>{{ sentiment_data.insight }}</p>
+
+</div>
+
+<br>
+<a href="/">Go to Homepage</a>
+
+{% endif %}
+
+</body>
+</html>
