@@ -1,0 +1,49 @@
+category,product_name,platform,review
+
+Smartphone,Apple iPhone 14,Amazon,"Excellent camera quality and smooth performance"
+Smartphone,Apple iPhone 14,Flipkart,"Battery drains quickly and price feels high"
+Smartphone,Apple iPhone 14,Amazon,"Overall performance is average for daily usage"
+
+Smartphone,Samsung Galaxy S23,Amazon,"Display is amazing and phone is very fast"
+Smartphone,Samsung Galaxy S23,Flipkart,"Heats up during heavy gaming"
+Smartphone,Samsung Galaxy S23,Amazon,"Decent phone with balanced features"
+
+Smartphone,OnePlus Nord CE 3,Flipkart,"Good phone for the price range"
+Smartphone,OnePlus Nord CE 3,Amazon,"Camera quality is below expectations"
+Smartphone,OnePlus Nord CE 3,Flipkart,"Not bad, works fine for normal tasks"
+
+Smartphone,Redmi Note 12,Amazon,"Value for money and smooth experience"
+Smartphone,Redmi Note 12,Flipkart,"Build quality feels cheap"
+Smartphone,Redmi Note 12,Amazon,"Average performance but acceptable"
+
+Laptop,HP Pavilion 15,Amazon,"Good performance for students and office work"
+Laptop,HP Pavilion 15,Flipkart,"Battery backup is poor"
+Laptop,HP Pavilion 15,Amazon,"Decent laptop for basic tasks"
+
+Laptop,Dell Inspiron 14,Flipkart,"Build quality is solid and reliable"
+Laptop,Dell Inspiron 14,Amazon,"Slight heating issues noticed"
+Laptop,Dell Inspiron 14,Flipkart,"Performance is okay for regular usage"
+
+Laptop,Lenovo IdeaPad 3,Amazon,"Affordable and good for beginners"
+Laptop,Lenovo IdeaPad 3,Flipkart,"Heats up sometimes and slows down"
+Laptop,Lenovo IdeaPad 3,Amazon,"Average laptop for office use"
+
+Laptop,ASUS VivoBook 15,Flipkart,"Lightweight and fast booting"
+Laptop,ASUS VivoBook 15,Amazon,"Keyboard quality could be better"
+Laptop,ASUS VivoBook 15,Flipkart,"Not too impressive but works fine"
+
+Smartwatch,Apple Watch Series 8,Amazon,"Very accurate fitness tracking"
+Smartwatch,Apple Watch Series 8,Flipkart,"Too expensive compared to features"
+Smartwatch,Apple Watch Series 8,Amazon,"Battery life is average"
+
+Smartwatch,Samsung Galaxy Watch 4,Flipkart,"Stylish and smooth UI"
+Smartwatch,Samsung Galaxy Watch 4,Amazon,"Strap quality is not great"
+Smartwatch,Samsung Galaxy Watch 4,Flipkart,"Decent smartwatch for daily use"
+
+Smartwatch,Noise ColorFit Pro 4,Amazon,"Affordable and good battery life"
+Smartwatch,Noise ColorFit Pro 4,Flipkart,"Display brightness is low"
+Smartwatch,Noise ColorFit Pro 4,Amazon,"Okay product for the price"
+
+Smartwatch,boAt Xtend Smartwatch,Flipkart,"Good features at low cost"
+Smartwatch,boAt Xtend Smartwatch,Amazon,"Touch response is slow sometimes"
+Smartwatch,boAt Xtend Smartwatch,Flipkart,"Average performance overall"
